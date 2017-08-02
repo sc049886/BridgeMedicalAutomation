@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/curvesapi-1.03.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/extentreports-java-2.41.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/fontbox-2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/MonteScreenRecorder (1).jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/MultiScreenShot.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/poi-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/poi-examples-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/poi-excelant-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/poi-ooxml-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/poi-ooxml-schemas-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/poi-scratchpad-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

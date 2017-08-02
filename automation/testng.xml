@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Security_Suite" >
+
+<parameter name="testBuild" value="http://10.162.106.174/TransSpec2016010414/"></parameter>
+<parameter name="adminusername" value="superuser"></parameter>
+<parameter name="adminpassword" value="123"></parameter>
+
+
+  <test name="Test">
+    <classes>
+       
+      <class name="com.bridge.security.UserLockOutTest"/>
+      
+      <class name="com.bridge.security.PasswordReflectionTest"/>
+      <class name="com.bridge.security.PasswordRulesTest"/>
+      <class name="com.bridge.security.AfterLogOutTest"/>
+ 
+   <class name="com.bridge.security.PasswordReflectionTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Security_Suite -->

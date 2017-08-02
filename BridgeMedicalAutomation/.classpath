@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/ant-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/ant-launcher-1.7.0.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/bson-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/curvesapi-1.03.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/extentreports-java-2.41.1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/fontbox-2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/mongodb-driver-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/mongodb-driver-core-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/MonteScreenRecorder (1).jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/MultiScreenShot.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/poi-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/poi-examples-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/poi-excelant-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/poi-ooxml-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/poi-ooxml-schemas-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/poi-scratchpad-3.15-beta1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/snakeyaml-1.15.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/sqlite-jdbc-3.8.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/BridgeMedical/Jars/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Security_Suite]">
+  <parameter name="adminpassword" value="123"/>
+  <parameter name="testBuild" value="http://10.162.106.174/TransSpec2016010414/"/>
+  <parameter name="adminusername" value="superuser"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.bridge.security.UserLockOutTest">
+        <methods>
+          <include name="afterUserLockOutTest"/>
+          <include name="beforeUserLockOutTest"/>
+        </methods>
+      </class> <!-- com.bridge.security.UserLockOutTest -->
+      <class name="com.bridge.security.AfterLogOutTest">
+        <methods>
+          <include name="AfterLogOut" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.bridge.security.AfterLogOutTest -->
+      <class name="com.bridge.security.PasswordReflectionTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="passwordReflectionTest"/>
+        </methods>
+      </class> <!-- com.bridge.security.PasswordReflectionTest -->
+      <class name="com.bridge.security.PasswordRulesTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.bridge.security.PasswordRulesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Security_Suite] -->
