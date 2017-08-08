@@ -19,12 +19,12 @@ import com.pageObject.Functions.SystemManagerLoginPageFunctions;
 import com.pageObject.Functions.SystemManagerMainPageFunction;
 import com.pageObject.Functions.SystemManagerPointsOfCareFunctions;
 import com.pageObject.Functions.SystemManagerRolesFunctions;
+import com.pageObject.Functions.SystemManagerTransfusionSettingsPageFunctions;
 
 import multiScreenShot.MultiScreenShot;
 
 public class BRDG_VR_AdministerDerivative {
-	SystemManagerLoginPageFunctions systemManager = new
-	SystemManagerLoginPageFunctions(Constants.systemManagerUrl);
+	SystemManagerLoginPageFunctions systemManager = new SystemManagerLoginPageFunctions(Constants.systemManagerUrl);
 	SystemManagerMainPageFunction systemManagerMainMenu = new SystemManagerMainPageFunction();
 	SystemManagerRolesFunctions rolesFunctions = new SystemManagerRolesFunctions();
 	SystemManagerEditRoleFunctions editRoleFunctions = new SystemManagerEditRoleFunctions();
@@ -32,24 +32,27 @@ public class BRDG_VR_AdministerDerivative {
 	SystemManagerEditPocPageFunctions editPoc = new SystemManagerEditPocPageFunctions();
 	CommonFunctions commonFunctions = new CommonFunctions();
 	SeleniumFunctions sleniumFunctions = new SeleniumFunctions();
+	SystemManagerTransfusionSettingsPageFunctions transfusionSettings = new SystemManagerTransfusionSettingsPageFunctions();
 	String futureExpiryDate = commonFunctions.currentDate(Constants.FORMAT_STANDARD_DATE, 4);
 	MultiScreenShot multiScreens = new MultiScreenShot("C:/Temp/", "BRDG_VR_AdministerDerivative");
 
-	
-	 @BeforeTest public void preSettingTest() { systemManager.adminLogin(); //
-	 //systemManagerMainMenu.clickTransfusionSettingsButton();
-	 systemManagerMainMenu.clickRolesButton();
-	  rolesFunctions.clickEditSystemAdminitserLink(); // editRoleFunctions.
-	  editRoleFunctions.
-	  checkboxMayAccessAdministerDerivativesWithoutCosignatureCheckbox();
-	  editRoleFunctions.clickConfirmButton();
-	  rolesFunctions.clickEditTransfusionistLink(); editRoleFunctions.
-	  checkboxMayAccessAdministerDerivativesWithCosignatureCheckbox();
-	  editRoleFunctions.clickConfirmButton(); rolesFunctions.clickBackButton();
-	  IEDriver.ieDriver.quit();
-	  
-	  }
-	 
+	@BeforeTest
+	public void preSettingTest() {
+		systemManager.adminLogin(); //
+		// systemManagerMainMenu.clickTransfusionSettingsButton();
+		systemManagerMainMenu.clickRolesButton();
+		rolesFunctions.clickEditSystemAdminitserLink(); // editRoleFunctions.
+		editRoleFunctions.checkboxMayAccessAdministerDerivativesWithoutCosignatureCheckbox();
+		editRoleFunctions.clickConfirmButton();
+		rolesFunctions.clickEditTransfusionistLink();
+		editRoleFunctions.checkboxMayAccessAdministerDerivativesWithCosignatureCheckbox();
+		editRoleFunctions.clickConfirmButton();
+		rolesFunctions.clickBackButton();
+		systemManagerMainMenu.clickTransfusionSettingsButton();
+		transfusionSettings.clickBloodPlasmaDerivativeLink();
+		IEDriver.ieDriver.quit();
+
+	}
 
 	@Test
 	public void bloodPlasmaTest() throws InterruptedException, IOException {

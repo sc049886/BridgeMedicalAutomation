@@ -32,9 +32,6 @@ public class SystemManagerTransfusionSettingsPageFunctions
 	
 	public void selectOptionForExpirationMessage(String option)
 	{
-		/*element = transfusionsettings.expirationMessage;
-    	sel = new Select(element);
-    	sel.selectByValue(a);*/
     	try {
 			seleniumFunctions.waitForElement(transfusionsettings.expirationMessage);
 			seleniumFunctions.selectValueByVisibleText(transfusionsettings.expirationMessage,
@@ -52,6 +49,30 @@ public class SystemManagerTransfusionSettingsPageFunctions
 
 		} catch (Exception e) {
 			System.out.println("SystemManagerTransfusionSettingsPageFunctions: clickBloodTypeChangeReasonLink method Failed " + e);
+		}
+
+	}
+	public void clickConfirmButton() {
+		try {
+			seleniumFunctions.waitForElement(transfusionsettings.buttonConfirm);
+			transfusionsettings.buttonConfirm.click();
+
+		} catch (Exception e) {
+			System.out.println("SystemManagerTransfusionSettingsPageFunctions: clickConfirmButton method Failed " + e);
+		}
+
+	}
+
+	/*
+	 * Links present in Transfusion Settings page:
+	 */
+	public void clickBloodPlasmaDerivativeLink() {
+		try {
+			seleniumFunctions.waitForElement(transfusionsettings.bloodPlasmaDerivativeLink);
+			transfusionsettings.bloodPlasmaDerivativeLink.click();
+
+		} catch (Exception e) {
+			System.out.println("SystemManagerTransfusionSettingsPageFunctions: cliclickBloodPlasmaDerivativeLinkckBloodProductsLink method Failed " + e);
 		}
 
 	}
@@ -95,17 +116,7 @@ public class SystemManagerTransfusionSettingsPageFunctions
 		}
 
 	}
-	public void clickConfirmButton() {
-		try {
-			seleniumFunctions.waitForElement(transfusionsettings.buttonConfirm);
-			transfusionsettings.buttonConfirm.click();
-
-		} catch (Exception e) {
-			System.out.println("SystemManagerTransfusionSettingsPageFunctions: clickConfirmButton method Failed " + e);
-		}
-
-	}
-
+	
 	
 	
 	
